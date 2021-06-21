@@ -1,6 +1,6 @@
 name: drone-test
 kind: pipeline
-type: aws
+type: docker
 
 steps:
   - name: test
