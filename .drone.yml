@@ -4,6 +4,6 @@ type: docker
 
 steps:
   - name: test
-    image: alpine
+    image: ubuntu
     commands:
-      - echo "It worked very well"
+      - echo :"Ubuntu"
